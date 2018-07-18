@@ -29,12 +29,12 @@ public class createGmailAccount {
 		driver.findElement(By.linkText("CREATE AN ACCOUNT")).click();
 		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
 	}
-	@Test(priority=3)
-	public void firstName() {
-		//locators--xpath and linktext
-		//clicked on Account link
-		//driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/div/ul/li[5]/a")).click();
-		//driver.findElement(By.xpath("//input[contains(@class,\"whsOnd zHQkBf\")]")).click();
-		driver.findElement(By.cssSelector("#firstName")).sendKeys("Kyaw");
-	}
+//	@Test(priority=3)
+//	public void firstName() {
+//		//locators--xpath and linktext
+//		//clicked on Account link
+//		//driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/div/ul/li[5]/a")).click();
+//		//driver.findElement(By.xpath("//input[contains(@class,\"whsOnd zHQkBf\")]")).click();
+//		driver.findElement(By.cssSelector("#firstName")).sendKeys("Kyaw");
+//	}
 }

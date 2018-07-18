@@ -32,13 +32,13 @@ public class navigateToWoolworths {
 		//driver.findElement(By.cssSelector("#center-panel > div > wow-login-page > div > div > wow-login-form > div > div > a")).click();
 		driver.findElement(By.xpath("//a[contains(text(),'sign up')]")).click();
 	}
-	@Test(priority=3)
-	public void signUp() {
-		//locators--xpath and linktext
-		//clicked on Account link
-		driver.findElement(By.xpath("//a[contains(text(),'sign up')]")).click();
-		//driver.findElement(By.xpath("")).click();
-		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
-}
+//	@Test(priority=3)
+//	public void signUp() {
+//		//locators--xpath and linktext
+//		//clicked on Account link
+//		driver.findElement(By.xpath("//a[contains(text(),'sign up')]")).click();
+//		//driver.findElement(By.xpath("")).click();
+//		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
+//}
 	
 }

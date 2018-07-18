@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="harveyNormanShopping.harveyNormanShopping">
+      <class name="createGmailAccount.createGmailAccount">
         <methods>
-          <include name="Continue"/>
-          <include name="addToCart"/>
-          <include name="myCart"/>
+          <include name="firstName"/>
         </methods>
-      </class> <!-- harveyNormanShopping.harveyNormanShopping -->
+      </class> <!-- createGmailAccount.createGmailAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
