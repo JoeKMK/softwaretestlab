@@ -40,7 +40,7 @@ public class AT001_navigateToOfficeworks {
 	  @Test(priority=4)
 	     public void email_Address() {
 	    	 //Email address field
-	    	 driver.findElement(By.xpath("//*[@id=\"emailId\"]")).sendKeys("windtalker.checker@gmail.com");
+	    	 driver.findElement(By.xpath("//*[@id=\"emailId\"]")).sendKeys("kyawmyokhing01@gmail.com");
 	    			 
 	     }
 	  @Test(priority=5)
