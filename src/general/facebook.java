@@ -25,7 +25,7 @@ public class facebook {
 		//locators--xpath and linktext
 		//clicked on Account link
 		//driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/div/ul/li[5]/a")).click();
-		driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("windtalker.checker@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("kyawmyokhing01@gmail.com");
 	
 	}
 	@Test(priority=3)
