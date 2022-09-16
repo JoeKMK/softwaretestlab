@@ -52,7 +52,7 @@ public class AT002_NavigateToLoginToMyAccount {
      @Test(priority=6)
      public void emailAddress() {
     	 //Email address field
-    	 driver.findElement(By.xpath("//*[@id=\"email_address\"]")).sendKeys("windtalker.checker@gmail.com");
+    	 driver.findElement(By.xpath("//*[@id=\"email_address\"]")).sendKeys("kyawmyokhing01@gmail.com");
     			 
      }
      @Test(priority=7)
