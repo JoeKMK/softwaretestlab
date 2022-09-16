@@ -32,7 +32,7 @@ public class AT003_loginToMyAccount {
 	@Test(priority=3)
 	public void emailAddress() {
 		//email address for login
-		driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("windtalker.checker@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("kyawmyokhing01@gmail.com");
 		driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
 		
 	}
